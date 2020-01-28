@@ -7,6 +7,12 @@
     src: url('baskerville-fonts/baskervi') format(ttf)
 }
 
+
+/* @font-face {
+    font-family: "baskerville";
+    src: url('baskerville-fonts/baskervi') format(ttf)
+} */
+
 body {
     background-color: rgb(209, 202, 202);
 }
