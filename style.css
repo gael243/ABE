@@ -1,0 +1,48 @@
+* {
+    margin: auto;
+}
+
+@font-face {
+    font-family: "baskerville";
+    src: url('baskerville-fonts/baskervi') format(ttf)
+}
+
+body {
+    background-color: rgb(209, 202, 202);
+}
+
+h1 {
+    font-family: "baskerville";
+    text-align: center;
+    font-size: 60px;
+}
+
+p,
+h2,
+table {
+    margin-left: 200px;
+}
+
+a,
+h2 {
+    color: red;
+}
+
+.td_an,
+.td_ev {
+    background-color: rgb(31, 28, 29);
+    color: white;
+    text-align: center;
+}
+
+table {
+    margin-right: 70px;
+}
+
+tr:nth-child(even) {
+    background: none;
+}
+
+tr:nth-child(odd) {
+    background: rgb(235, 228, 228)
+}
