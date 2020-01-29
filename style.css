@@ -1,26 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Roboto&display=swap');
 * {
     margin: auto;
 }
-
-@font-face {
-    font-family: "baskerville";
-    src: url('baskerville-fonts/baskervi') format(ttf)
-}
-
-
-/* @font-face {
-    font-family: "baskerville";
-    src: url('baskerville-fonts/baskervi') format(ttf)
-} */
 
 body {
     background-color: rgb(209, 202, 202);
 }
 
-h1 {
-    font-family: "baskerville";
-    margin-left: 280px;
+h1,
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 300px;
     font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 a,
@@ -30,8 +30,7 @@ h2 {
 
 p,
 h2,
-table,
-#image {
+table {
     margin-left: 200px;
 }
 
@@ -59,18 +58,18 @@ tr:hover {
     background-color: rgb(83, 83, 83);
 }
 
-#image {}
-
 figure {
     width: 70%;
     border-radius: 1.3%;
     border: 2px solid red;
     background-color: rgb(83, 85, 87);
     color: white;
+    text-align: center;
 }
 
-figcaption {
-    text-align: center;
+#image {
+    position: relative;
+    padding-left: 1%;
 }
 
 #p_border {
@@ -79,5 +78,4 @@ figcaption {
     margin-right: 400px;
     color: rgb(74, 16, 124);
     background-color: rgb(160, 150, 150);
-    /* text-align: center; */
 }
