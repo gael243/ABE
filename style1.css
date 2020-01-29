@@ -15,44 +15,21 @@ h2 {
     font-size: 50px;
 }
 
-p {
+p,
+li,
+pre,
+h3 {
     font-family: 'Roboto', sans-serif;
+    margin-left: 300px;
+}
+
+blockquote {
+    margin-left: 500px;
 }
 
 a,
 h2 {
     color: red;
-}
-
-p,
-h2,
-table {
-    margin-left: 200px;
-}
-
-.td_an,
-.td_ev {
-    background-color: rgb(31, 28, 29);
-    color: white;
-    text-align: center;
-}
-
-table {
-    margin-right: 100px;
-    cursor: pointer;
-    border-spacing: 0px;
-}
-
-tr:nth-child(even) {
-    background: none;
-}
-
-tr:nth-child(odd) {
-    background: rgb(235, 228, 228);
-}
-
-tr:hover {
-    background-color: rgb(83, 83, 83);
 }
 
 figure {
@@ -71,14 +48,3 @@ figure {
 #image {
     position: relative;
 }
-
-#p_border {
-    border: 2px dashed blue;
-    margin-left: 300px;
-    margin-right: 400px;
-    color: rgb(74, 16, 124);
-    background-color: rgb(160, 150, 150);
-}
-
-
-/* syling the second page */
